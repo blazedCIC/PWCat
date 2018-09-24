@@ -18,6 +18,7 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
+            "ngswConfigPath": "src/ngsw-config.json",
             "assets": [
               "src/favicon.ico",
               "src/assets",
@@ -44,7 +45,8 @@
               "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
-              "buildOptimizer": true
+              "buildOptimizer": true,
+              "serviceWorker": true
             }
           }
         },
@@ -94,8 +96,7 @@
             ]
           }
         }
-      },
-      "serviceWorker":  true
+      }
     },
     "PWCat-e2e": {
       "root": "e2e/",
