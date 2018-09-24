@@ -94,7 +94,8 @@
             ]
           }
         }
-      }
+      },
+      "serviceWorker":  true
     },
     "PWCat-e2e": {
       "root": "e2e/",
